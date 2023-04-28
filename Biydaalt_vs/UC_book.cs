@@ -36,6 +36,8 @@ namespace Biydaalt_vs
             cmd.Parameters.AddWithValue("@val5", txt_add_ID.Text);
             cmd.Parameters.AddWithValue("@val6", txt_print_ID.Text);
             cmd.ExecuteNonQuery();
+            MessageBox.Show("Amjilttai burtgelee");
+
         }
 
         private void UC_book_Load(object sender, EventArgs e)

@@ -43,6 +43,7 @@ namespace Biydaalt_vs
             this.label1.Size = new System.Drawing.Size(63, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "Зохиолч";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -52,6 +53,7 @@ namespace Biydaalt_vs
             this.label2.Size = new System.Drawing.Size(33, 17);
             this.label2.TabIndex = 1;
             this.label2.Text = "Нэр";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // txt_w_name
             // 
@@ -60,6 +62,7 @@ namespace Biydaalt_vs
             this.txt_w_name.Name = "txt_w_name";
             this.txt_w_name.Size = new System.Drawing.Size(175, 33);
             this.txt_w_name.TabIndex = 3;
+            this.txt_w_name.TextChanged += new System.EventHandler(this.txt_w_name_TextChanged);
             // 
             // button1
             // 

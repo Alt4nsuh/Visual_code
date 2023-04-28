@@ -29,7 +29,6 @@ namespace Biydaalt_vs
         private void lbl_holboo_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             Holboo_barih HB = new Holboo_barih();
-            HB.Dock = DockStyle.Fill;
             HB.TopLevel = false;
             panel1.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right | AnchorStyles.Top;
             panel1.Controls.Clear();
@@ -41,7 +40,6 @@ namespace Biydaalt_vs
         {
            Bidnii_tuhai BT = new Bidnii_tuhai();
             BT.TopLevel = false;
-            BT.Dock = DockStyle.Fill;
             panel1.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right | AnchorStyles.Top;
             panel1.Controls.Clear();
             panel1.Controls.Add(BT);
@@ -52,7 +50,6 @@ namespace Biydaalt_vs
         {
             Nuur Nr = new Nuur();
             Nr.TopLevel = false;
-            Nr.Dock = DockStyle.Fill;
             panel1.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right | AnchorStyles.Top;
             panel1.Controls.Clear();
             panel1.Controls.Add(Nr);
@@ -83,7 +80,6 @@ namespace Biydaalt_vs
 
             panel1.Controls.Clear();
             ad.TopLevel = false;
-            ad.Dock = DockStyle.Fill;
            panel1.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right | AnchorStyles.Top;
             panel1.Controls.Clear();
            panel1.Controls.Add(ad);

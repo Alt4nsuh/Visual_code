@@ -51,7 +51,8 @@ namespace Biydaalt_vs
             {
                 con.ConnectionString = connectionString;
                 con.Open();
-                string query = "INSERT INTO Customer (cus_fname, cus_lname,cus_address,cus_pass,cus_pass2,cus_gmail) VALUES (@val1, @val2, @val3,@val4,@val5,@val6)";
+
+                string query = "INSERT INTO Customer (cus_fname, cus_lname,cus_address,cus_pass,cus_pass2,cus_gmail,cus_date) VALUES (@val1, @val2, @val3,@val4,@val5,@val6,now())";
                 MySqlCommand cmd = new MySqlCommand(query, con);
 
                 cmd.Parameters.AddWithValue("@val1", txt_ner_sign.Text);

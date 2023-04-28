@@ -102,7 +102,7 @@ namespace Biydaalt_vs
             this.Controls.Add(this.label1);
             this.Name = "UC_writers";
             this.Size = new System.Drawing.Size(1013, 293);
-          //  this.Load += new System.EventHandler(this.UC_writers_Load);
+            this.Load += new System.EventHandler(this.UC_writers_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -187,6 +187,7 @@ namespace Biydaalt_vs
             this.Controls.Add(this.txt_t_sumprise);
             this.Name = "UC_tuluv";
             this.Size = new System.Drawing.Size(1013, 293);
+            this.Load += new System.EventHandler(this.UC_tuluv_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

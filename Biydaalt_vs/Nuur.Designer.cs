@@ -38,7 +38,10 @@ namespace Biydaalt_vs
             this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
             this.panel1 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.uC_imgBox3 = new Biydaalt_vs.UC_imgBox();
+            this.uC_imgBox4 = new Biydaalt_vs.UC_imgBox();
             this.panel1.SuspendLayout();
+            this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // lbl_Book
@@ -102,10 +105,26 @@ namespace Biydaalt_vs
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.AutoScroll = true;
+            this.flowLayoutPanel1.Controls.Add(this.uC_imgBox3);
+            this.flowLayoutPanel1.Controls.Add(this.uC_imgBox4);
             this.flowLayoutPanel1.Location = new System.Drawing.Point(263, 87);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(949, 652);
             this.flowLayoutPanel1.TabIndex = 3;
+            // 
+            // uC_imgBox3
+            // 
+            this.uC_imgBox3.Location = new System.Drawing.Point(3, 3);
+            this.uC_imgBox3.Name = "uC_imgBox3";
+            this.uC_imgBox3.Size = new System.Drawing.Size(949, 237);
+            this.uC_imgBox3.TabIndex = 2;
+            // 
+            // uC_imgBox4
+            // 
+            this.uC_imgBox4.Location = new System.Drawing.Point(3, 246);
+            this.uC_imgBox4.Name = "uC_imgBox4";
+            this.uC_imgBox4.Size = new System.Drawing.Size(949, 237);
+            this.uC_imgBox4.TabIndex = 3;
             // 
             // Nuur
             // 
@@ -118,6 +137,7 @@ namespace Biydaalt_vs
             this.Name = "Nuur";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.flowLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -130,6 +150,8 @@ namespace Biydaalt_vs
         private System.Windows.Forms.VScrollBar vScrollBar1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private UC_imgBox uC_imgBox3;
+        private UC_imgBox uC_imgBox4;
         //  private UC_imgBook uC_imgBook7;
     }
 }

@@ -34,6 +34,8 @@ namespace Biydaalt_vs
             cmd.Parameters.AddWithValue("@val2", txt_print_name.Text);
 
             cmd.ExecuteNonQuery();
+            MessageBox.Show("Amjilttai burtgelee");
+
         }
 
         private void UC_printer_Load(object sender, EventArgs e)

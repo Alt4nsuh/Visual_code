@@ -13,7 +13,6 @@ C:\Users\Dell\source\repos\Biydaalt_vs\Biydaalt_vs\obj\Debug\Biydaalt_vs.Nuur.re
 C:\Users\Dell\source\repos\Biydaalt_vs\Biydaalt_vs\obj\Debug\Biydaalt_vs.Login.resources
 C:\Users\Dell\source\repos\Biydaalt_vs\Biydaalt_vs\obj\Debug\Biydaalt_vs.Sign.resources
 C:\Users\Dell\source\repos\Biydaalt_vs\Biydaalt_vs\obj\Debug\Biydaalt_vs.UC_imgBox.resources
-C:\Users\Dell\source\repos\Biydaalt_vs\Biydaalt_vs\obj\Debug\Biydaalt_vs.csproj.AssemblyReference.cache
 C:\Users\Dell\source\repos\Biydaalt_vs\Biydaalt_vs\obj\Debug\Biydaalt_vs.Admin.resources
 C:\Users\Dell\source\repos\Biydaalt_vs\Biydaalt_vs\bin\Debug\BouncyCastle.Crypto.dll
 C:\Users\Dell\source\repos\Biydaalt_vs\Biydaalt_vs\bin\Debug\Google.Protobuf.dll
@@ -48,3 +47,6 @@ C:\Users\Dell\source\repos\Biydaalt_vs\Biydaalt_vs\obj\Debug\Biydaalt_vs.UC_nom_
 C:\Users\Dell\source\repos\Biydaalt_vs\Biydaalt_vs\obj\Debug\Biydaalt_vs.UC_writers.resources
 C:\Users\Dell\source\repos\Biydaalt_vs\Biydaalt_vs\obj\Debug\Biydaalt_vs.tuluv_lavlah.resources
 C:\Users\Dell\source\repos\Biydaalt_vs\Biydaalt_vs\obj\Debug\Biydaalt_vs.UC_tuluv.resources
+C:\Users\Dell\source\repos\Biydaalt_vs\Biydaalt_vs\obj\Debug\Biydaalt_vs.Search.resources
+C:\Users\Dell\source\repos\Biydaalt_vs\Biydaalt_vs\obj\Debug\Biydaalt_vs.UC_Ajiltan_search1.resources
+C:\Users\Dell\source\repos\Biydaalt_vs\Biydaalt_vs\obj\Debug\Biydaalt_vs.csproj.AssemblyReference.cache

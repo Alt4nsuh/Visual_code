@@ -81,6 +81,7 @@ namespace Biydaalt_vs
             this.Controls.Add(this.label1);
             this.Name = "tuluv_lavlah";
             this.Size = new System.Drawing.Size(1013, 293);
+            this.Load += new System.EventHandler(this.tuluv_lavlah_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

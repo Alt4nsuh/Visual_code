@@ -34,6 +34,8 @@ namespace Biydaalt_vs
 
             cmd.Parameters.AddWithValue("@val1", txt_add_name.Text);
             cmd.ExecuteNonQuery();
+            MessageBox.Show("Amjilttai burtgelee");
+
         }
 
         private void UC_tabiur_Load(object sender, EventArgs e)

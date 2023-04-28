@@ -33,9 +33,26 @@ namespace Biydaalt_vs
 
             cmd.Parameters.AddWithValue("@val1", txt_w_name.Text);
             cmd.ExecuteNonQuery();
+            MessageBox.Show("Amjilttai burtgelee");
+
         }
 
         private void UC_writer_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_w_name_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }

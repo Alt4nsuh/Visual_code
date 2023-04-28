@@ -39,6 +39,7 @@ namespace Biydaalt_vs
             cmd.Parameters.AddWithValue("@val4", txt_e_ID.Text);
             cmd.Parameters.AddWithValue("@val5", txt_cus_ID.Text);
             cmd.ExecuteNonQuery();
+            MessageBox.Show("Amjilttai burtgelee");
         }
 
         private void order_Load(object sender, EventArgs e)

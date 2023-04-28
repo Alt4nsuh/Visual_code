@@ -36,6 +36,13 @@ namespace Biydaalt_vs
             cmd.Parameters.AddWithValue("@val5", txt_t_sumprise.Text);
             cmd.Parameters.AddWithValue("@val6", txt_o_ID.Text);
             cmd.ExecuteNonQuery();
+            MessageBox.Show("Amjilttai burtgelee");
+
+        }
+
+        private void UC_tuluv_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

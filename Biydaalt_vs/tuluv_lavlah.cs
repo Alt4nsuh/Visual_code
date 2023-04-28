@@ -30,6 +30,13 @@ namespace Biydaalt_vs
 
             cmd.Parameters.AddWithValue("@val1", txt_tl_name.Text);
             cmd.ExecuteNonQuery();
+            MessageBox.Show("Amjilttai burtgelee");
+
+        }
+
+        private void tuluv_lavlah_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

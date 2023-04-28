@@ -40,6 +40,9 @@ namespace Biydaalt_vs
             cmd.Parameters.AddWithValue("@val3", txt_e_address.Text);
             cmd.Parameters.AddWithValue("@val4", txt_e_phone.Text);
             cmd.ExecuteNonQuery();
+            MessageBox.Show("Amjilttai burtgelee");
+
+
         }
 
         private void UC_Ajilchin_Load(object sender, EventArgs e)

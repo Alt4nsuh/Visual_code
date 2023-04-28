@@ -34,14 +34,14 @@ namespace Biydaalt_vs
             this.lbl_holboo = new System.Windows.Forms.LinkLabel();
             this.linkLabel3 = new System.Windows.Forms.LinkLabel();
             this.lbl_tuhai = new System.Windows.Forms.LinkLabel();
-            this.lbl_Admin = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.AutoScroll = true;
             this.panel1.Location = new System.Drawing.Point(-5, 70);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1230, 693);
+            this.panel1.Size = new System.Drawing.Size(1353, 671);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -49,6 +49,8 @@ namespace Biydaalt_vs
             // 
             this.lbl_home.AutoSize = true;
             this.lbl_home.Location = new System.Drawing.Point(25, 29);
+            this.lbl_home.MaximumSize = new System.Drawing.Size(50, 50);
+            this.lbl_home.MinimumSize = new System.Drawing.Size(10, 10);
             this.lbl_home.Name = "lbl_home";
             this.lbl_home.Size = new System.Drawing.Size(40, 17);
             this.lbl_home.TabIndex = 0;
@@ -89,23 +91,11 @@ namespace Biydaalt_vs
             this.lbl_tuhai.Text = "Бидний тухай";
             this.lbl_tuhai.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lbl_tuhai_LinkClicked);
             // 
-            // lbl_Admin
-            // 
-            this.lbl_Admin.AutoSize = true;
-            this.lbl_Admin.Location = new System.Drawing.Point(462, 29);
-            this.lbl_Admin.Name = "lbl_Admin";
-            this.lbl_Admin.Size = new System.Drawing.Size(46, 17);
-            this.lbl_Admin.TabIndex = 4;
-            this.lbl_Admin.TabStop = true;
-            this.lbl_Admin.Text = "admin";
-            this.lbl_Admin.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lbl_Admin_LinkClicked);
-            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1216, 753);
-            this.Controls.Add(this.lbl_Admin);
+            this.ClientSize = new System.Drawing.Size(1342, 753);
             this.Controls.Add(this.linkLabel3);
             this.Controls.Add(this.lbl_tuhai);
             this.Controls.Add(this.lbl_holboo);
@@ -125,7 +115,6 @@ namespace Biydaalt_vs
         private System.Windows.Forms.LinkLabel linkLabel3;
         private System.Windows.Forms.LinkLabel lbl_tuhai;
         public System.Windows.Forms.Panel panel1;
-        public System.Windows.Forms.LinkLabel lbl_Admin;
     }
 }
 

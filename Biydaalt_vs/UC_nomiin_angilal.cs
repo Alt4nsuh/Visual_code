@@ -37,6 +37,8 @@ namespace Biydaalt_vs
             cmd.Parameters.AddWithValue("@val1", txt_ba_ID.Text);
             cmd.Parameters.AddWithValue("@val2", txt_b_ID.Text);
             cmd.ExecuteNonQuery();
+            MessageBox.Show("Amjilttai burtgelee");
+
         }
     }
 }
